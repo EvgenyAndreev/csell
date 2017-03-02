@@ -1,0 +1,79 @@
+
+.title.disconnected span{
+	color: red !important;
+	font-weight: bold !important;
+}
+
+
+    /*
+     * Стили для страницы товара
+     */
+     
+#catalog-list .auction .image img {
+    height: 172px;
+    max-width: 215px;
+}
+
+#catalog-detail .images .main {
+    padding: 20px;
+}
+
+#catalog-detail .images img {
+    max-height: 360px;
+    max-width: 450px;
+}
+
+#catalog-detail .bets{
+    overflow: hidden;
+    height: 525px;
+}
+
+.product-spec__name {
+    display: inline-block;
+    width: 48%;
+    margin: 0 0 7px;
+    vertical-align: top;
+    background: inherit;
+}
+.product-spec__value {
+    display: inline-block;
+    width: 52%;
+    margin: 0 0 7px;
+    vertical-align: bottom;
+    background: inherit;
+}
+.product-spec {
+    position: relative;
+    margin: 0;
+    color: #404040;
+    background: #fff;
+}
+.product-spec-wrap__body .title {
+    margin-top: -4px;
+    margin-bottom: 12px;
+}
+
+.transaction{
+	-display: hide;
+}
+
+#login_modal{
+	display: none;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------- */
+
+label.error{
+	font-size: 10px;
+    margin-top: -68px;
+    right: 49px;
+    color: white;
+    background: #EC5151;
+    padding: 1px 5px;
+    border-radius: 15px;
+    position: absolute;
+}
+.form-control.error{
+	border: 2px solid #EC5151;
+}

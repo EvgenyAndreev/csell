@@ -1,0 +1,30 @@
+<div class="auction {{auction.status}}">
+    <div class="basket"></div>
+    <div class="title">
+        {{auction.title}}
+    </div>
+    <div class="image">
+        <div class="overlay">
+            <a href="#" class="btn btn-detail">Подробнее</a>
+        </div>
+        <a {{action 'toggleImageSize'}} class="image {{if isWide "wide"}}">
+        	<img src="{{auction.image}}" alt="">
+		    <small>View Larger</small>
+		</a>
+    </div>
+    <div class="price">
+        {{auction.price}} руб.
+    </div>
+    <div class="user">
+        {{auction.user}}
+    </div>
+    <div class="timer">
+        <div class="btn btn-timer">
+            {{auction-bets-count auction.bets}}
+        </div>
+        <div class="numbers">{{auction.bets}}</div>
+    </div>
+    <div class="bet">
+        <a href="#" class="btn btn-success">Ставка</a>
+    </div>
+</div>

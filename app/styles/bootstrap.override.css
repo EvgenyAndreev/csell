@@ -1,0 +1,94 @@
+.container {
+    width: 1240px!important;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-color: #eeefef;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #0090ff;
+}
+
+.pagination {
+    background: #e9f3fa;
+    border-radius: 20px;
+    margin: 5px 0;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+    background:transparent;
+    font-weight: 700;
+    color: #000;
+    border: none;
+}
+
+.pagination > li:first-child > a,
+.pagination > li:first-child > a > span,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > a > span,
+.pagination > li:last-child > span{
+    color: #FC2E62;
+}
+
+.pagination > li:first-child > a,
+.pagination > li:first-child > span{
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.pagination > li:first-child > a:hover,
+.pagination > li:first-child > span:hover,
+.pagination > li:last-child > a:hover,
+.pagination > li:last-child > span:hover {
+    border-radius: 50%;
+}
+
+.pagination > li.active > a,
+.pagination > li.active > a > span,
+.pagination > li.active > span {
+    background: #FC2E62;
+    border-color: #FC2E62;
+    color: #fff;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+.pagination > li > a:hover > span,
+.pagination > li > a:focus,
+.pagination > li > a:focus > span,
+.pagination > li > span:focus {
+    background: #ffa5b4;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 15px;
+}

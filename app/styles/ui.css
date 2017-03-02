@@ -1,0 +1,301 @@
+.w100 {
+    width: 100%;
+}
+
+.form-control {
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 9px 16px 7px;
+    line-height: 20px;
+    border: 1px solid #fff;
+    box-shadow: none;
+    color: #7891ad;
+    font-weight: 600;
+    height: auto;
+}
+
+.form-control.field {
+    margin-bottom: 20px;
+}
+
+.has-error .form-control,
+.has-error .form-control:focus {
+    border: 1px solid transparent;
+    color: #fff;
+    background: #ff0000;
+}
+
+
+.has-error input.form-control::-webkit-input-placeholder {
+    color: #fff;
+}
+.has-error input.form-control::-moz-placeholder {
+    color: #fff;
+}
+.has-error .input.form-control::-ms-input-placeholder {
+    color: #fff;
+}
+
+.btn {
+    font-size: 13px;
+    border-radius: 20px;
+    padding: 9px 16px 7px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #fff;
+}
+.btn:active {
+    box-shadow: none;
+}
+
+
+.btn-lg,
+.btn-group-lg > .btn {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 16px 13px;
+    border-radius: 40px;
+}
+
+.btn.btn-default {
+    border-color: #0090ff;
+    color: #0090ff;
+}
+.btn.btn-default.light {
+    border-color: #fff;
+    color: #6dbefd;
+}
+.btn.btn-default:hover {
+    background:#64BEF9;
+    color: #fff;
+}
+.btn.btn-default:active {
+    background:#29a0fb;
+    color: #fff;
+}
+
+.btn.btn-primary {
+    border-color: #29a0fb;
+    background: #29a0fb;
+    color: #fff;
+}
+.btn.btn-primary:hover {
+    border-color: #82c9ff;
+    background: #82c9ff;
+}
+.btn.btn-primary:active {
+    border-color: #0076d1;
+    background: #0076d1;
+}
+
+.btn.btn-success {
+    background-color: #26d20c;
+    border-color: #26d20c;
+}
+.btn.btn-success:hover {
+    background-color: #63f64c;
+    border-color: #63f64c;
+}
+.btn.btn-success:active {
+    background: #17b100 none repeat scroll 0 0;
+    border-color: #17b100;
+    outline: none;
+}
+
+.btn.btn-apply{
+    background-color: #a8c1e2;
+    border-color: #a8c1e2;
+}
+.btn.btn-apply:hover {
+    background-color: #c3d2e5;
+    border-color: #c3d2e5;
+}
+.btn.btn-apply:active {
+    background: #75a3df none repeat scroll 0 0;
+    border-color: #75a3df;
+    outline: none;
+}
+
+.btn.btn-detail {
+    background-color: #ffcc00;
+    border-color: #ffcc00;
+}
+.btn.btn-detail:hover {
+    background-color: #ffdf61;
+    border-color: #ffdf61;
+}
+.btn.btn-detail:active {
+    border-color: #f3b700;
+    background: #f3b700;
+    outline: none;
+}
+
+.btn.btn-buy {
+    background-color: #ff506d;
+    border-color: #ff506d;
+}
+.btn.btn-buy:hover {
+    background-color: #f88296;
+    border-color: #f88296;
+}
+.btn.btn-buy:active {
+    border-color: #fd1c41;
+    background: #fd1c41;
+    outline: none;
+}
+
+.btn.btn-request {
+    background: #B6CAE0;
+    border-color: #B6CAE0;
+}
+
+
+.social a {
+    display: block;
+    width: 29px;
+    height: 29px;
+    line-height: 29px;
+    margin-right: 20px;
+    float: left;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.social a i.fa::before {
+    color: #fff;
+    line-height: 29px;
+}
+
+.social a.facebook { background: #4d70ae; }
+.social a.twitter { background: #48b3f6; } 
+.social a.instagram { background: #125688; } 
+
+.social a:hover {
+    opacity: 0.8;
+}
+
+.form-area {
+    background: #d2e5f2;
+}
+
+.form-area.light {
+    background: #eff3f7;
+}
+
+.form-label-button .area {
+    padding-bottom: 10px;
+}
+
+.form-label-button .name {
+    color: #7891ad;
+    font-weight: 600;
+    text-transform: uppercase;
+    float: left;
+    line-height: 38px;
+}
+
+.form-label-button .form-control {
+    width: 91px;
+    text-align: center;
+    margin-left: 13px;
+    float: left;
+}
+
+.form-label-button .btn {
+    float: left;
+    margin-left: 10px;
+}
+
+
+.auth .registration {
+    text-align: left;
+    width: 160px;
+}
+
+.auth .btn.btn-default {
+    text-transform: none;
+}
+
+.auth .login {
+    margin-left: -33px;
+    min-width: 105px;
+}
+
+.auth .login i.fa::before {
+    color: #fff;
+    margin-right: 5px;
+    display: block;
+    line-height: 18px;
+}
+
+ul.dots {
+    padding-left: 20px;    
+}
+
+ul.dots li {
+    list-style: none;
+    position: relative;
+}
+
+ul.dots li::before {
+    position: absolute;  
+    margin: 7px 0 0 -17px;    
+    vertical-align: middle;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #6dbefd;
+    border-radius: 50%;
+    content: "";
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+    padding-left: 25px;
+}
+
+input[type="radio"] + label::before,
+input[type="checkbox"] + label::before {
+    background: #fff;
+    border-radius: 2px;
+    content: "";
+    display: inline-block;
+    height: 20px;
+    margin: -1px 0 0 -25px;
+    position: absolute;
+    vertical-align: middle;
+    width: 20px;
+}
+
+input[type="radio"] + label::before {
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked + label::before{
+    content: "\2022";
+    color: #0090ff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 17px;    
+}
+
+input[type="checkbox"]:checked + label::before{
+    content: "\f00c";
+    color: #0090ff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    font-family: FontAwesome;
+}

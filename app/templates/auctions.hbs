@@ -1,0 +1,14 @@
+{{#list-filter
+   filter=(action 'filterByCity')
+   as |auctions|}}
+  <ul class="results">
+    {{#each auctions as |auctionUnit|}}
+      <li>{{auction-listing auction=auctionUnit}}</li>
+    {{/each}}
+  </ul>
+{{/list-filter}}
+
+
+{{#each model as |auctionUnit|}}
+  {{auction-listing auction=auctionUnit}}
+{{/each}}

@@ -1,0 +1,35 @@
+.modal-dialog {
+    width: 780px;
+}
+
+.modal-header {
+    border: none;
+    background: transparent;
+}
+
+.modal-content {
+    border-radius: 0px;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+.modal-body {
+    background: #d2e5f2;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    padding-bottom: 40px;
+}
+
+.modal-title {
+    color: transparent;
+}
+
+.bootbox-close-button.close {
+    color: #94b9d2;
+    font-size: 36px;
+    opacity: 1;
+    position: absolute;
+    right: -22px;
+    text-shadow: none;
+    top: 24px;
+}
