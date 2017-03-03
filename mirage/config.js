@@ -42,7 +42,7 @@ export default function() {
         }
    }, {
         type: 'auctions',
-        id: 'urban-living',
+        id: 'urban-living2',
         attributes: {
           title: 'Urban Living',
           price: '2 300',
@@ -55,7 +55,7 @@ export default function() {
         }
       }, {
         type: 'auctions',
-        id: 'downtown-charm',
+        id: 'downtown-charm2',
         attributes: {
           title: 'Downtown Charm',
           price: '1 400',
@@ -69,9 +69,9 @@ export default function() {
    }];
   
 	this.get('/auctions', function(db, request) {
-	    if(request.queryParams.city !== undefined) {
+	    if(request.queryParams.title !== undefined) {
 	      let filteredAuctions = auctions.filter(function(i) {
-	        return i.attributes.city.toLowerCase().indexOf(request.queryParams.city.toLowerCase()) !== -1;
+	        return i.attributes.title.toLowerCase().indexOf(request.queryParams.title.toLowerCase()) !== -1;
 	      });
 	      return { data: filteredAuctions };
 	    } else {

@@ -1,5 +1,5 @@
 {{#list-filter
-   filter=(action 'filterByCity')
+   filter=(action 'filterByTitle')
    as |auctions|}}
   <ul class="results">
     {{#each auctions as |auctionUnit|}}
@@ -8,7 +8,3 @@
   </ul>
 {{/list-filter}}
 
-
-{{#each model as |auctionUnit|}}
-  {{auction-listing auction=auctionUnit}}
-{{/each}}
